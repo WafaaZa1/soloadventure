@@ -12,6 +12,4 @@ try {
     die();
 }
 
-include 'views/index_layout.php';
-
 ?>
