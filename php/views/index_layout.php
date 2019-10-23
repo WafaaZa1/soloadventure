@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
 <body>
-    <div class="bg">
 	<nav class="navbar navbar-expand-md">
+
   <a class="navbar-brand" href="#">
-    <img src="file:///C:/Users/wafaays.zamil.LEARNET/Desktop/Digitalt%20Skapande/logo4.svg">
+      <img src="images/logo4.svg" width="60" height="60" alt="">
   </a>
+
   <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -27,10 +28,10 @@
         <a class="nav-link" href="#">About</a>
       </li>
     </ul>
-  </div>
 </nav>
+<div class="bg">
 <main>
-<div class="mx-auto" style="width: 200px;">
+<div class="container w-50">
         <p>
             <?= $story['body'] ?>
         </p>
@@ -42,6 +43,7 @@
                 <?= $link['description'] ?>
             <?php endforeach ?>
             </div>
+          </div>
         </ul>
     </main>
 

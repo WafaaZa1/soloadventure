@@ -2,7 +2,7 @@
 body {
     padding: 0;
     margin: 0;
-    background: #b3c589;
+    background-color: rgb(185, 139, 139);
   }
 
   .navbar {
@@ -26,14 +26,14 @@ body {
   .navbar-collapse {
     justify-content: flex-end;
   }
-  
+
   body, html {
     height: 100%;
   }
   
   .bg {
     /* The image used */
-    background-image: url('images/wallpaper.jpg');
+    background-image: url('../images/wallpaper2.jpg');
   
     /* Full height */
     height: 100%;
@@ -46,4 +46,10 @@ body {
 
   a {
       font-family: 'Barlow Condensed', sans-serif;
+  }
+
+  p {
+    color: white;
+    font-size: large;
+
   }
