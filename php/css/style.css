@@ -2,26 +2,48 @@
 body {
     padding: 0;
     margin: 0;
-    background: #f2f6e9;
+    background: #b3c589;
   }
 
   .navbar {
     background: grey;
   }
+
   .nav-link,
   .navbar-brand {
     color: #fff;
     cursor: pointer;
   }
+
   .nav-link {
     margin-right: 1em !important;
   }
+
   .nav-link:hover {
     color: #000;
   }
+
   .navbar-collapse {
     justify-content: flex-end;
   }
+  
   body, html {
     height: 100%;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url('images/wallpaper.jpg');
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  a {
+      font-family: 'Barlow Condensed', sans-serif;
   }
