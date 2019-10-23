@@ -33,7 +33,7 @@ body {
   
   .bg {
     /* The image used */
-    background-image: url('../images/wallpaper2.jpg');
+    background-image: url('../images/wallpaper1.jpg');
   
     /* Full height */
     height: 100%;
@@ -51,5 +51,8 @@ body {
   p {
     color: white;
     font-size: large;
+  }
 
+  h3 {
+    text-shadow: 2px 2px #ff0000;
   }

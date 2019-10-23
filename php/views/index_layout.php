@@ -22,16 +22,18 @@
   <div class="collapse navbar-collapse" id="main-navigation">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#">Soloäventyr spel</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#">Om</a>
       </li>
     </ul>
 </nav>
 <div class="bg">
 <main>
 <div class="container w-50">
+  <h3>Hans & Greta Soloäventyr X Twilight</h3>
+    <hr>
         <p>
             <?= $story['body'] ?>
         </p>
