@@ -33,13 +33,12 @@
 <main>
 <div class="container w-50">
   <h3>Hans & Greta Soloäventyr X Twilight</h3>
-    <hr>
+  <hr class="new1">
         <p>
             <?= $story['body'] ?>
         </p>
         <ul>
             <?php foreach ($links as $link): ?>
-            
                 <a href="?id=<?= $link['target_id'] ?>">
                 <button class="button button1"> 
                 <?= $link['description'] ?>
