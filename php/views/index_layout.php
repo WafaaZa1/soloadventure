@@ -29,7 +29,7 @@
       </li>
     </ul>
 </nav>
-<div class="bg">
+<div id="grad1">
 <main>
 <div class="container w-50">
   <h3>Hans & Greta Soloäventyr X Twilight</h3>
@@ -39,11 +39,12 @@
         </p>
         <ul>
             <?php foreach ($links as $link): ?>
-            <li> 
+            
                 <a href="?id=<?= $link['target_id'] ?>">
-
+                <button class="button button1"> 
                 <?= $link['description'] ?>
             <?php endforeach ?>
+              </button>
             </div>
           </div>
         </ul>
